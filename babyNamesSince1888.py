@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import glob
 
-sorted_txt_files = sorted([filename for filename in glob.glob("names/*.txt")])
+sorted_txt_files = sorted([filename for filename in glob.glob("Names/*.txt")])
 all_df = []
 
 for filename in sorted_txt_files:
