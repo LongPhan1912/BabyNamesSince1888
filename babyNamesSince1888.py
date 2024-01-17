@@ -6,8 +6,8 @@ sorted_txt_files = sorted([filename for filename in glob.glob("Names/*.txt")])
 all_df = []
 
 for filename in sorted_txt_files:
-    # current_year is formated as "names/yobXXXX.txt", where XXXX is the year
-    current_year = int(filename.split("names/yob")[1][:4])
+    # current_year is formated as "Names/yobXXXX.txt", where XXXX is the year
+    current_year = int(filename.split("Names/yob")[1][:4])
     curr_df = pd.read_csv(filename, sep=',', names=["Name", "Gender", "Number"])
     curr_df["Year"] = current_year
     all_df.append(curr_df)
