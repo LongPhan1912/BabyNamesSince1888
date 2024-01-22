@@ -16,4 +16,5 @@ Instructions to those who want to reproduce the end-to-end process of making the
 4. Enjoy!
 
 Find out more about the original dataset at: https://catalog.data.gov/dataset/baby-names-from-social-security-card-applications-national-data.
+
 A special shout out: If you want to see an even more ambitious set of visualizations on this topic, check out: https://nametrends.net!
